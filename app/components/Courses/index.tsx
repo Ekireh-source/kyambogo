@@ -10,6 +10,7 @@ import { StarIcon } from '@heroicons/react/24/solid'
 interface DataType {
     heading: string;
     heading2: string;
+    nickname: string;
     imgSrc: string;
 
 }
