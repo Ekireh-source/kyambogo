@@ -173,3 +173,10 @@ hr {
     background-size: cover;
     border-radius: 20px;
 }
+
+
+.bg-about {
+  background-image: url('/assets/pic1.jpg');
+  background-size: cover;
+  border-radius: 20px;
+}
