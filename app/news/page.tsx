@@ -105,7 +105,7 @@ const news = () => {
         <img src="/assets/canteen.jpg" alt="about image" className="w-full h-[400px]" />
       </div>
       <div className="flex justify-between">
-        <h1 className="text-4xl mx-auto -mt-20">School News</h1>
+        <h1 className="text-4xl mx-auto -mt-20 text-white">School News</h1>
       </div>
 
 

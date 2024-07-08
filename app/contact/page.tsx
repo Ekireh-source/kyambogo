@@ -11,7 +11,7 @@ const contact = () => {
         <img src="/assets/canteen.jpg" alt="about image" className="w-full h-[400px]" />
       </div>
       <div className="flex justify-between">
-        <h1 className="text-4xl mx-auto -mt-20">Contact Us</h1>
+        <h1 className="text-4xl mx-auto -mt-20 text-white">Contact Us</h1>
       </div>
       <div className="flex my-5 py-3"><h1 className="mx-auto text-3xl">Do You Have Any Questions?</h1></div>
       <div className="flex flex-col md:flex-row md:items-center">

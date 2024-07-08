@@ -8,10 +8,10 @@ const about = () => {
         <img src="/assets/van.jpg" alt="about image" className="w-full h-[400px]" />
       </div>
       <div className="flex justify-between">
-        <h1 className="text-4xl mx-auto -mt-20">About Us</h1>
+        <h1 className="text-4xl mx-auto -mt-20 text-white">About Us</h1>
       </div>
-      <div className="container mx-10 px-5 my-10 py-5">
-        <p className="">
+      <div className="container mx-10">
+        <p className="mt-5">
         Kyambogo College School started in 1954 as a small demonstration Junior Secondary School in the neighborhood of Kyambogo Teacher Training College now known as Kyambogo University.  It is located on the same hill with the Kabaka of Buganda’s palace at Banda.
 
         It started in a small building with few students and staff with a primary motive of according the college tutors and student teachers opportunity to carry out demonstration lessons.

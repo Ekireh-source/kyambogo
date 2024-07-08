@@ -13,7 +13,7 @@ const academics = () => {
         <img src="/assets/art.jpg" alt="about image" className="w-full h-[400px]" />
       </div>
       <div className="flex justify-between">
-        <h1 className="text-4xl mx-auto -mt-20">Academics</h1>
+        <h1 className="text-4xl mx-auto -mt-20 text-white">Academics</h1>
       </div>
       <div className="flex flex-col justify-between my-5">
         <h1 className="text-3xl mx-auto">School Curriculum</h1>

@@ -5,7 +5,7 @@ const studentLife = () => {
         <img src="/assets/aerial.jpg" alt="about image" className="w-full h-[400px]" />
       </div>
       <div className="flex justify-between">
-        <h1 className="text-4xl mx-auto -mt-20">student Life</h1>
+        <h1 className="text-4xl mx-auto -mt-20 text-white">student Life</h1>
       </div>
       <div className="mx-5 px-3">
         <h1 className="text-3xl mt-5 pt-3">UNIFORM</h1>
