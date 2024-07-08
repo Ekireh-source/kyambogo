@@ -176,7 +176,8 @@ hr {
 
 
 .bg-about {
-  background-image: url('/assets/pic1.jpg');
+  background-image: url('/assets/');
   background-size: cover;
   border-radius: 20px;
+
 }

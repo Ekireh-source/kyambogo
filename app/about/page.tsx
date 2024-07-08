@@ -8,7 +8,7 @@ const about = () => {
         <img src="/assets/van.jpg" alt="about image" className="w-full h-[400px]" />
       </div>
       <div className="flex justify-between">
-        <h1 className="text-4xl mx-auto -mt-10">About Us</h1>
+        <h1 className="text-4xl mx-auto -mt-20">About Us</h1>
       </div>
       <div className="container mx-10 px-5 my-10 py-5">
         <p className="">
@@ -26,7 +26,7 @@ const about = () => {
         <div className="flex justify-between p-4">
           <h1 className="mx-auto text-4xl">What Drives Us</h1>
         </div>
-        <div className="flex justify-around gap-4">
+        <div className="flex flex-col md:flex-row justify-around gap-4">
           <div className="flex flex-col hover:bg-[#199326] rounded-[10px]">
             <h1 className="mx-auto p-4 text-2xl">Our Mission</h1>
             <p className="p-3 text-gray-700">To provide affordable, equitable and all round education with scientific, technical and attitude so as to create useful citizens.</p>
