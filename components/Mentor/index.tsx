@@ -108,7 +108,7 @@ export default class MultipleItems extends Component {
             <div className="py-10 sm:py-24 bg-[#2f66a6]" id="mentor">
 
                 <div className='mx-auto max-w-2xl lg:max-w-7xl sm:py-4 px-4 lg:px-8 relative'>
-                    <h2 className="lh-82 text-midnightblue text-4xl md:text-55xl text-center md:text-start font-semibold">Meet with our <br /> top management.</h2>
+                    <h2 className="lh-82 text-white text-4xl md:text-55xl text-center md:text-start font-semibold ">Meet with our <br /> top management.</h2>
 
                     <Slider {...settings}>
                         {postData.map((items, i) => (
@@ -117,12 +117,12 @@ export default class MultipleItems extends Component {
                                     <div className="relative">
                                         <Image src={items.imgSrc} alt="user-image" width={200} height={0} className="inline-block m-auto rounded-full" />
                                         <div className="absolute right-[84px] bottom-[102px] bg-white rounded-full p-4">
-                                            
+
                                         </div>
                                     </div>
                                     <div className="">
-                                        <h3 className='text-2xl font-semibold text-lightblack'>{items.name}</h3>
-                                        <h4 className='text-lg font-normal text-lightblack pt-2 opacity-50'>{items.profession}</h4>
+                                        <h3 className='text-2xl font-semibold text-white'>{items.name}</h3>
+                                        <h4 className='text-lg font-normal text-white pt-2 opacity-50'>{items.profession}</h4>
                                     </div>
                                 </div>
                             </div>

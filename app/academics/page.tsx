@@ -16,14 +16,14 @@ const academics = () => {
         <h1 className="text-4xl mx-auto -mt-20 text-white">Academics</h1>
       </div>
       <div className="flex flex-col justify-between my-5">
-        <h1 className="text-3xl mx-auto">School Curriculum</h1>
-        <h5 className="text-sm mx-auto">The School offers the teaching of the following subjects.</h5>
+        <h1 className="text-3xl mx-auto text-[#2f66a6]">School Curriculum</h1>
+        <h5 className="text-sm mx-auto text-charcoal">The School offers the teaching of the following subjects.</h5>
       </div>
       <div className="flex justify-around my-5 py-5">
         <Accordion type="single" collapsible className="w-full flex flex-col">
           <AccordionItem value="item-1" className="mx-20">
-            <AccordionTrigger>O’ Level Subjects</AccordionTrigger>
-            <AccordionContent className="">
+            <AccordionTrigger className="text-[#2f66a6]">O’ Level Subjects</AccordionTrigger>
+            <AccordionContent className="text-charcoal">
               <ol>
                 <li>English Language</li>
                 <li>Mathematics</li>
@@ -47,8 +47,8 @@ const academics = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2" className="mx-20">
-            <AccordionTrigger>A’ Level Subjects</AccordionTrigger>
-            <AccordionContent>
+            <AccordionTrigger className="text-[#2f66a6]">A’ Level Subjects</AccordionTrigger>
+            <AccordionContent className="text-charcoal">
             <ol>
               <li>English Language</li>
               <li>Mathematics</li>
@@ -72,8 +72,8 @@ const academics = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3" className="mx-20">
-            <AccordionTrigger>O’ Level Optional Subject Groupings</AccordionTrigger>
-            <AccordionContent>
+            <AccordionTrigger className="text-[#2f66a6]">O’ Level Optional Subject Groupings</AccordionTrigger>
+            <AccordionContent className="text-charcoal">
             <ol>
             <li>Computer Studies</li>
             <li>Agriculture</li>
@@ -85,8 +85,8 @@ const academics = () => {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4" className="mx-20">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
-            <AccordionContent>
+            <AccordionTrigger className="text-[#2f66a6]">Is it accessible?</AccordionTrigger>
+            <AccordionContent className="text-charcoal">
             <ol>
             <li>
             A. Sciences with Sub ICT:

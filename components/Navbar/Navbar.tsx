@@ -79,10 +79,11 @@ const Navbar = () => {
                                             key={item.name}
                                             href={item.href}
                                             onClick={() => handleLinkClick(item.href)}
+
                                         >
                                             <span
                                                 className={classNames(
-                                                    item.href === currentLink ? 'underline-links text-sm' : 'text-slategray',
+                                                    item.href === currentLink ? 'underline-links text-sm text-[#2f66a6]' : 'text-[#2f66a6]',
                                                     'px-3 py-4 font-normal opacity-75 hover:opacity-100 text-sm'
                                                 )}
                                                 aria-current={item.href ? 'page' : undefined}

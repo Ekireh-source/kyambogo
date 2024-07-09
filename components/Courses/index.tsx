@@ -84,8 +84,8 @@ export default class MultipleItems extends Component {
                 <div className='mx-auto max-w-7xl sm:py-8 px-4 lg:px-8 '>
 
                     <div className="sm:flex justify-between items-center">
-                        <h3 className="text-midnightblue text-4xl lg:text-55xl font-semibold mb-5 sm:mb-0">Latest News and Upcoming Events</h3>
-                        <Link href={'/'} className="text-Blueviolet text-lg font-medium space-links">Explore News&nbsp;&gt;&nbsp;</Link>
+                        <h3 className="text-[#2f66a6] text-4xl lg:text-55xl font-semibold mb-5 sm:mb-0">Latest News and Upcoming Events</h3>
+                        <Link href={'/'} className="text-[#2f66a6] text-lg font-medium space-links">Explore News&nbsp;&gt;&nbsp;</Link>
                     </div>
 
 

@@ -128,11 +128,11 @@ const news = () => {
                       <div>
 
                         <Dialog>
-                          <DialogTrigger><h1 className="bg-[#199326] rounded-[5px] mt-5 p-3">Read More...</h1></DialogTrigger>
-                          <DialogContent>
-                            <DialogHeader>
-                              <DialogTitle>Are you absolutely sure?</DialogTitle>
-                              <DialogDescription>
+                          <DialogTrigger><h1 className="bg-[#199326] rounded-[5px] mt-5 p-3 text-white">Read More...</h1></DialogTrigger>
+                          <DialogContent className="bg-charcoal">
+                            <DialogHeader className="bg-charcoal">
+
+                              <DialogDescription className="text-white py-2">
                                 {items.news}
                               </DialogDescription>
                             </DialogHeader>

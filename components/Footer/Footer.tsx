@@ -63,7 +63,7 @@ const footer = () => {
                     <div className="flex flex-shrink-0 items-center border-right">
                         <Image src="/assets/logo/logo.png" alt="logo" width={214} height={66} />
                     </div>
-                    <h3 className='text-xs font-medium text-gunmetalgray lh-160 mt-5 mb-4 lg:mb-16'> To produce a society of diligent, skilled, socially responsible <br />and useful citizens who strive for excellence.</h3>
+                    <h3 className='text-xs font-medium text-gunmetalgray lh-160 mt-5 mb-4 lg:mb-16 text-white'> To produce a society of diligent, skilled, socially responsible <br />and useful citizens who strive for excellence.</h3>
                     <div className='flex gap-4'>
 
                         {socialLinks.map((items, i) => (
@@ -82,11 +82,11 @@ const footer = () => {
 
                 {products.map((product) => (
                     <div key={product.id} className="sm:col-span-2 gap-4">
-                        <p className="text-black text-lg font-medium mb-9">{product.section}</p>
+                        <p className="text-black text-lg font-medium mb-9 text-white">{product.section}</p>
                         <ul>
                             {product.link.map((link: string, index: number) => (
                                 <li key={index} className='mb-5'>
-                                    <Link href="/" className="text-darkgray text-base font-normal mb-6 space-links">{link}</Link>
+                                    <Link href="/" className="text-darkgray text-base font-normal mb-6 space-links text-white">{link}</Link>
                                 </li>
                             ))}
                         </ul>
@@ -98,11 +98,11 @@ const footer = () => {
             {/* All Rights Reserved */}
 
             <div className='py-10 md:flex items-center justify-between border-t border-t-gray-blue'>
-                <h4 className='text-dark-red opacity-75 text-sm text-center md:text-start font-normal'>@2024 Kyambogo College School.All rights reserved</h4>
+                <h4 className='text-dark-red opacity-75 text-sm text-center md:text-start font-normal text-white'>@2024 Kyambogo College School.All rights reserved</h4>
                 <div className="flex gap-5 mt-5 md:mt-0 justify-center md:justify-start">
-                    <h4 className='text-dark-red opacity-75 text-sm font-normal'><Link href="/" target="_blank">Privacy policy</Link></h4>
+                    <h4 className='text-dark-red opacity-75 text-sm font-normal'><Link href="/" target="_blank" className="text-white">Privacy policy</Link></h4>
                     <div className="h-5 bg-dark-red opacity-25 w-0.5"></div>
-                    <h4 className='text-dark-red opacity-75 text-sm font-normal'><Link href="/" target="_blank">Terms & conditions</Link></h4>
+                    <h4 className='text-dark-red opacity-75 text-sm font-normal'><Link href="/" target="_blank" className="text-white">Terms & conditions</Link></h4>
                 </div>
             </div>
         </div>
