@@ -1,8 +1,11 @@
+import Image from 'next/image'
+
+
 const studentLife = () => {
   return(
     <section>
       <div>
-        <img src="/assets/aerial.jpg" alt="about image" className="w-full h-[400px]" />
+        <Image src="/assets/aerial.jpg" alt="about image" className="w-full h-[500px]" />
       </div>
       <div className="flex justify-between">
         <h1 className="text-4xl mx-auto -mt-20 text-white">student Life</h1>

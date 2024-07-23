@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
+import Image from 'next/image'
 
 
 interface NavigationItem {
@@ -58,12 +59,12 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center">
-                                <img
+                                <Image
                                     className="block h-20 w-30 lg:hidden"
                                     src={'/assets/logo/logo.png'}
                                     alt="dsign-logo"
                                 />
-                                <img
+                                <Image
                                     className="hidden h-20 w-30 lg:block"
                                     src={'/assets/logo/logo.png'}
                                     alt="dsign-logo"

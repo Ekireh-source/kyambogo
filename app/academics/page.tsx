@@ -4,13 +4,13 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
-
+import Image from 'next/image'
 
 const academics = () => {
   return(
     <section>
       <div className="">
-        <img src="/assets/art.jpg" alt="about image" className="w-full h-[400px]" />
+        <Image src="/assets/art.jpg" alt="about image" className="w-full h-[500px]" />
       </div>
       <div className="flex justify-between">
         <h1 className="text-4xl mx-auto -mt-20 text-white">Academics</h1>

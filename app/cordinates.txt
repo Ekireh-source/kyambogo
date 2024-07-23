@@ -1,0 +1,1107 @@
+[
+	{
+  "plus_code": {
+    "global_code": "6GGJ9H5F+HJ",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.35899999999998045,
+          "lng": 32.57412500000001
+        },
+        "southwest": {
+          "lat": 0.3588749999999834,
+          "lng": 32.57400000000001
+        }
+      },
+      "location": {
+        "lat": 0.3589374999999819,
+        "lng": 32.57406250000001
+      }
+    },
+    "local_code": "9H5F+HJ",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ9MWC+X8",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.39749999999999375,
+          "lng": 32.670875000000024
+        },
+        "southwest": {
+          "lat": 0.3973749999999967,
+          "lng": 32.67075000000003
+        }
+      },
+      "location": {
+        "lat": 0.3974374999999952,
+        "lng": 32.670812500000025
+      }
+    },
+    "local_code": "9MWC+X8",
+    "locality": {
+      "local_address": "Namugongo, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ9JJG+PF",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.38187499999999375,
+          "lng": 32.62625
+        },
+        "southwest": {
+          "lat": 0.3817499999999967,
+          "lng": 32.626125
+        }
+      },
+      "location": {
+        "lat": 0.3818124999999952,
+        "lng": 32.6261875
+      }
+    },
+    "local_code": "9JJG+PF",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ9J56+C7",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.3586249999999893,
+          "lng": 32.610749999999996
+        },
+        "southwest": {
+          "lat": 0.35849999999999227,
+          "lng": 32.610625
+        }
+      },
+      "location": {
+        "lat": 0.3585624999999908,
+        "lng": 32.6106875
+      }
+    },
+    "local_code": "9J56+C7",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ9J7X+XX",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.3649999999999949,
+          "lng": 32.650000000000006
+        },
+        "southwest": {
+          "lat": 0.36487499999999784,
+          "lng": 32.64987500000001
+        }
+      },
+      "location": {
+        "lat": 0.36493749999999636,
+        "lng": 32.64993750000001
+      }
+    },
+    "local_code": "9J7X+XX",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ9HPH+V8",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.38724999999999454,
+          "lng": 32.57837500000002
+        },
+        "southwest": {
+          "lat": 0.3871249999999975,
+          "lng": 32.578250000000025
+        }
+      },
+      "location": {
+        "lat": 0.387187499999996,
+        "lng": 32.578312500000024
+      }
+    },
+    "local_code": "9HPH+V8",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ8H42+H8",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.30649999999998556,
+          "lng": 32.55087500000002
+        },
+        "southwest": {
+          "lat": 0.3063749999999885,
+          "lng": 32.55075000000002
+        }
+      },
+      "location": {
+        "lat": 0.30643749999998704,
+        "lng": 32.55081250000002
+      }
+    },
+    "local_code": "8H42+H8",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ8HPC+WX",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.33737499999999443,
+          "lng": 32.57250000000002
+        },
+        "southwest": {
+          "lat": 0.3372499999999974,
+          "lng": 32.57237500000002
+        }
+      },
+      "location": {
+        "lat": 0.3373124999999959,
+        "lng": 32.57243750000002
+      }
+    },
+    "local_code": "8HPC+WX",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ9H5F+HJ",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.35899999999998045,
+          "lng": 32.57412500000001
+        },
+        "southwest": {
+          "lat": 0.3588749999999834,
+          "lng": 32.57400000000001
+        }
+      },
+      "location": {
+        "lat": 0.3589374999999819,
+        "lng": 32.57406250000001
+      }
+    },
+    "local_code": "9H5F+HJ",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ7J9C+9C",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.26849999999998886,
+          "lng": 32.621125000000006
+        },
+        "southwest": {
+          "lat": 0.2683749999999918,
+          "lng": 32.62100000000001
+        }
+      },
+      "location": {
+        "lat": 0.26843749999999034,
+        "lng": 32.62106250000001
+      }
+    },
+    "local_code": "7J9C+9C",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ9H32+FM",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.3537499999999909,
+          "lng": 32.55175
+        },
+        "southwest": {
+          "lat": 0.35362499999999386,
+          "lng": 32.551625
+        }
+      },
+      "location": {
+        "lat": 0.3536874999999924,
+        "lng": 32.5516875
+      }
+    },
+    "local_code": "9H32+FM",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ6HR4+QF",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.24200000000000443,
+          "lng": 32.556250000000006
+        },
+        "southwest": {
+          "lat": 0.2418750000000074,
+          "lng": 32.55612500000001
+        }
+      },
+      "location": {
+        "lat": 0.2419375000000059,
+        "lng": 32.55618750000001
+      }
+    },
+    "local_code": "6HR4+QF",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ7JHP+",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.28000000000000114,
+          "lng": 32.63749999999999
+        },
+        "southwest": {
+          "lat": 0.2775000000000034,
+          "lng": 32.63499999999999
+        }
+      },
+      "location": {
+        "lat": 0.2787500000000023,
+        "lng": 32.63624999999999
+      }
+    },
+    "locality": {}
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ8FMP+5V",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.3329999999999984,
+          "lng": 32.48724999999999
+        },
+        "southwest": {
+          "lat": 0.33287500000000136,
+          "lng": 32.48712499999999
+        }
+      },
+      "location": {
+        "lat": 0.3329374999999999,
+        "lng": 32.48718749999999
+      }
+    },
+    "local_code": "8FMP+5V",
+    "locality": {
+      "local_address": "Buloba, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ6GGW+M2",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.22675000000000978,
+          "lng": 32.545124999999985
+        },
+        "southwest": {
+          "lat": 0.22662500000001273,
+          "lng": 32.54499999999999
+        }
+      },
+      "location": {
+        "lat": 0.22668750000001125,
+        "lng": 32.545062499999986
+      }
+    },
+    "local_code": "6GGW+M2",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJCF73+F8",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.4137500000000074,
+          "lng": 32.453374999999994
+        },
+        "southwest": {
+          "lat": 0.41362500000001035,
+          "lng": 32.45325
+        }
+      },
+      "location": {
+        "lat": 0.41368750000000887,
+        "lng": 32.453312499999996
+      }
+    },
+    "local_code": "CF73+F8",
+    "locality": {
+      "local_address": "Wakiso, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ7GQX+53",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.2879999999999967,
+          "lng": 32.54775000000001
+        },
+        "southwest": {
+          "lat": 0.28787499999999966,
+          "lng": 32.54762500000001
+        }
+      },
+      "location": {
+        "lat": 0.2879374999999982,
+        "lng": 32.54768750000001
+      }
+    },
+    "local_code": "7GQX+53",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ9PQ3+JF",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.3891249999999786,
+          "lng": 32.703749999999985
+        },
+        "southwest": {
+          "lat": 0.3889999999999816,
+          "lng": 32.70362499999999
+        }
+      },
+      "location": {
+        "lat": 0.3890624999999801,
+        "lng": 32.70368749999999
+      }
+    },
+    "local_code": "9PQ3+JF",
+    "locality": {
+      "local_address": "Seeta, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJFH2M+28",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.4501249999999999,
+          "lng": 32.58337500000002
+        },
+        "southwest": {
+          "lat": 0.45000000000000284,
+          "lng": 32.58325000000002
+        }
+      },
+      "location": {
+        "lat": 0.45006250000000136,
+        "lng": 32.58331250000002
+      }
+    },
+    "local_code": "FH2M+28",
+    "locality": {
+      "local_address": "Nangabo, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ8J52+Q5",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.3094999999999857,
+          "lng": 32.60049999999998
+        },
+        "southwest": {
+          "lat": 0.30937499999998863,
+          "lng": 32.600374999999985
+        }
+      },
+      "location": {
+        "lat": 0.30943749999998715,
+        "lng": 32.600437499999984
+      }
+    },
+    "local_code": "8J52+Q5",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ3FRW+99",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.09099999999999397,
+          "lng": 32.49599999999998
+        },
+        "southwest": {
+          "lat": 0.09087499999999693,
+          "lng": 32.495874999999984
+        }
+      },
+      "location": {
+        "lat": 0.09093749999999545,
+        "lng": 32.49593749999998
+      }
+    },
+    "local_code": "3FRW+99",
+    "locality": {
+      "local_address": "Lyamutundwe, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ4G25+H5",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.10149999999998727,
+          "lng": 32.50799999999998
+        },
+        "southwest": {
+          "lat": 0.10137499999999022,
+          "lng": 32.507874999999984
+        }
+      },
+      "location": {
+        "lat": 0.10143749999998875,
+        "lng": 32.50793749999998
+      }
+    },
+    "local_code": "4G25+H5",
+    "locality": {
+      "local_address": "Lyamutundwe, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ4G4C+G9",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.10637499999998568,
+          "lng": 32.521000000000015
+        },
+        "southwest": {
+          "lat": 0.10624999999998863,
+          "lng": 32.52087500000002
+        }
+      },
+      "location": {
+        "lat": 0.10631249999998715,
+        "lng": 32.52093750000002
+      }
+    },
+    "local_code": "4G4C+G9",
+    "locality": {
+      "local_address": "Lyamutundwe, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ8GGQ+5M",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.32550000000000523,
+          "lng": 32.53924999999998
+        },
+        "southwest": {
+          "lat": 0.3253750000000082,
+          "lng": 32.539124999999984
+        }
+      },
+      "location": {
+        "lat": 0.3254375000000067,
+        "lng": 32.53918749999998
+      }
+    },
+    "local_code": "8GGQ+5M",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ7J34+FJ",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.2537499999999966,
+          "lng": 32.60662499999998
+        },
+        "southwest": {
+          "lat": 0.25362499999999955,
+          "lng": 32.60649999999998
+        }
+      },
+      "location": {
+        "lat": 0.25368749999999807,
+        "lng": 32.60656249999998
+      }
+    },
+    "local_code": "7J34+FJ",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ8H3C+8C",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.3033749999999884,
+          "lng": 32.57112500000002
+        },
+        "southwest": {
+          "lat": 0.30324999999999136,
+          "lng": 32.571000000000026
+        }
+      },
+      "location": {
+        "lat": 0.3033124999999899,
+        "lng": 32.571062500000025
+      }
+    },
+    "local_code": "8H3C+8C",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ7H69+58",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.2605000000000075,
+          "lng": 32.56837500000003
+        },
+        "southwest": {
+          "lat": 0.26037500000001046,
+          "lng": 32.568250000000035
+        }
+      },
+      "location": {
+        "lat": 0.260437500000009,
+        "lng": 32.56831250000003
+      }
+    },
+    "local_code": "7H69+58",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ8H3C+89",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.3033749999999884,
+          "lng": 32.571000000000026
+        },
+        "southwest": {
+          "lat": 0.30324999999999136,
+          "lng": 32.57087500000003
+        }
+      },
+      "location": {
+        "lat": 0.3033124999999899,
+        "lng": 32.57093750000003
+      }
+    },
+    "local_code": "8H3C+89",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ8H42+H8",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.30649999999998556,
+          "lng": 32.55087500000002
+        },
+        "southwest": {
+          "lat": 0.3063749999999885,
+          "lng": 32.55075000000002
+        }
+      },
+      "location": {
+        "lat": 0.30643749999998704,
+        "lng": 32.55081250000002
+      }
+    },
+    "local_code": "8H42+H8",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJHGVJ+PR",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.5943749999999994,
+          "lng": 32.53212500000001
+        },
+        "southwest": {
+          "lat": 0.5942500000000024,
+          "lng": 32.53200000000001
+        }
+      },
+      "location": {
+        "lat": 0.5943125000000009,
+        "lng": 32.53206250000001
+      }
+    },
+    "local_code": "HGVJ+PR",
+    "locality": {
+      "local_address": "Bombo, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ9FWX+85",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.39587499999998954,
+          "lng": 32.49799999999999
+        },
+        "southwest": {
+          "lat": 0.3957499999999925,
+          "lng": 32.49787499999999
+        }
+      },
+      "location": {
+        "lat": 0.395812499999991,
+        "lng": 32.49793749999999
+      }
+    },
+    "local_code": "9FWX+85",
+    "locality": {
+      "local_address": "Kayunga, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ7J9C+9C",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.26849999999998886,
+          "lng": 32.621125000000006
+        },
+        "southwest": {
+          "lat": 0.2683749999999918,
+          "lng": 32.62100000000001
+        }
+      },
+      "location": {
+        "lat": 0.26843749999999034,
+        "lng": 32.62106250000001
+      }
+    },
+    "local_code": "7J9C+9C",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ9PCP+G5",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.37137499999998624,
+          "lng": 32.73549999999997
+        },
+        "southwest": {
+          "lat": 0.3712499999999892,
+          "lng": 32.735374999999976
+        }
+      },
+      "location": {
+        "lat": 0.3713124999999877,
+        "lng": 32.735437499999975
+      }
+    },
+    "local_code": "9PCP+G5",
+    "locality": {
+      "local_address": "Mukono, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ7HV6+CH",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.2936250000000058,
+          "lng": 32.561499999999995
+        },
+        "southwest": {
+          "lat": 0.29350000000000875,
+          "lng": 32.561375
+        }
+      },
+      "location": {
+        "lat": 0.2935625000000073,
+        "lng": 32.5614375
+      }
+    },
+    "local_code": "7HV6+CH",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ7CJX+8P",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.28087499999999466,
+          "lng": 32.449375
+        },
+        "southwest": {
+          "lat": 0.2807499999999976,
+          "lng": 32.449250000000006
+        }
+      },
+      "location": {
+        "lat": 0.28081249999999613,
+        "lng": 32.449312500000005
+      }
+    },
+    "local_code": "7CJX+8P",
+    "locality": {
+      "local_address": "Nsangi, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJCJCV+VR",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.42225000000000534,
+          "lng": 32.64462499999999
+        },
+        "southwest": {
+          "lat": 0.4221250000000083,
+          "lng": 32.644499999999994
+        }
+      },
+      "location": {
+        "lat": 0.4221875000000068,
+        "lng": 32.64456249999999
+      }
+    },
+    "local_code": "CJCV+VR",
+    "locality": {
+      "local_address": "Bulindo, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ7HQW+PH",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.2893749999999926,
+          "lng": 32.59649999999999
+        },
+        "southwest": {
+          "lat": 0.28924999999999557,
+          "lng": 32.596374999999995
+        }
+      },
+      "location": {
+        "lat": 0.2893124999999941,
+        "lng": 32.59643749999999
+      }
+    },
+    "local_code": "7HQW+PH",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ7HQW+PH",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.2893749999999926,
+          "lng": 32.59649999999999
+        },
+        "southwest": {
+          "lat": 0.28924999999999557,
+          "lng": 32.596374999999995
+        }
+      },
+      "location": {
+        "lat": 0.2893124999999941,
+        "lng": 32.59643749999999
+      }
+    },
+    "local_code": "7HQW+PH",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJC9CM+GJ",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.4213749999999976,
+          "lng": 32.38412499999998
+        },
+        "southwest": {
+          "lat": 0.42125000000000057,
+          "lng": 32.383999999999986
+        }
+      },
+      "location": {
+        "lat": 0.4213124999999991,
+        "lng": 32.384062499999985
+      }
+    },
+    "local_code": "C9CM+GJ",
+    "locality": {
+      "local_address": "Kakiri, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJGFM2+FC",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.5337499999999977,
+          "lng": 32.45112499999999
+        },
+        "southwest": {
+          "lat": 0.5336250000000007,
+          "lng": 32.45099999999999
+        }
+      },
+      "location": {
+        "lat": 0.5336874999999992,
+        "lng": 32.45106249999999
+      }
+    },
+    "local_code": "GFM2+FC",
+    "locality": {
+      "local_address": "Kitungwa, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJG7C8+XM",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.5224999999999937,
+          "lng": 32.26674999999997
+        },
+        "southwest": {
+          "lat": 0.5223749999999967,
+          "lng": 32.266624999999976
+        }
+      },
+      "location": {
+        "lat": 0.5224374999999952,
+        "lng": 32.266687499999975
+      }
+    },
+    "local_code": "G7C8+XM",
+    "locality": {
+      "local_address": "Lukoma, Uganda"
+    }
+  },
+  "status": "OK"
+},
+{
+  "plus_code": {
+    "global_code": "6GGJ7J9C+9C",
+    "geometry": {
+      "bounds": {
+        "northeast": {
+          "lat": 0.26849999999998886,
+          "lng": 32.621125000000006
+        },
+        "southwest": {
+          "lat": 0.2683749999999918,
+          "lng": 32.62100000000001
+        }
+      },
+      "location": {
+        "lat": 0.26843749999999034,
+        "lng": 32.62106250000001
+      }
+    },
+    "local_code": "7J9C+9C",
+    "locality": {
+      "local_address": "Kampala, Uganda"
+    }
+  },
+  "status": "OK"
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

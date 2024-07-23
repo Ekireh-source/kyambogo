@@ -1,11 +1,11 @@
 
-
+import Image from 'next/image'
 
 const about = () => {
   return(
     <section>
       <div className="">
-        <img src="/assets/van.jpg" alt="about image" className="w-full h-[400px]" />
+        <Image src="/assets/van.jpg" alt="about image" className="w-full h-[500px]" />
       </div>
       <div className="flex justify-between">
         <h1 className="text-4xl mx-auto -mt-20 text-white">About Us</h1>

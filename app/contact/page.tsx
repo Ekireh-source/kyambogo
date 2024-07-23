@@ -1,14 +1,58 @@
+"use client";
+
 import { Textarea } from "@/components/ui/textarea"
-import { Input } from "@/components/ui/input"
+import Link from "next/link"
+import {z} from "zod";
+import { feedbackMessage } from "./feedback"
+import { feedbackSchema } from "@/app/common/utils/schema";
 import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
+import { zodResolver } from "@hookform/resolvers/zod"
+import Image from 'next/image'
+
+
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form"
+import { useForm } from "react-hook-form";
 
 
 
-const contact = () => {
+const Contact = () => {
+
+  const form = useForm<z.infer<typeof feedbackSchema>>({
+    resolver: zodResolver(feedbackSchema),
+    defaultValues: {
+      name: "",
+      email: "",
+      message: "",
+    },
+  
+  })
+
+  async function onSubmit(values: z.infer<typeof feedbackSchema>) {
+    // Do something with the form values.
+    // ✅ This will be type-safe and validated.
+  
+  
+    const response = await feedbackMessage(values);
+  
+  
+    form.reset();
+  }
+
+
+
   return(
     <section>
       <div>
-        <img src="/assets/canteen.jpg" alt="about image" className="w-full h-[400px]" />
+        <Image src="/assets/canteen.jpg" alt="about image" className="w-full h-[500px]" />
       </div>
       <div className="flex justify-between">
         <h1 className="text-4xl mx-auto -mt-20 text-white">Contact Us</h1>
@@ -35,15 +79,15 @@ const contact = () => {
             </p>
             <p className="py-2 text-charcoal flex gap-4 items-center">
 
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-6 w-6 text-[#2f66a6]">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6 text-[#2f66a6]">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
             </svg>
 
             info@kyambogocollege.sc.ug
             </p>
             <p className="py-2 text-charcoal flex gap-4 items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-6 w-6 text-[#2f66a6]">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6 text-[#2f66a6]">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
               </svg>
 
             +256 414 286 571
@@ -51,12 +95,73 @@ const contact = () => {
         </div>
         <div className="flex-1 flex flex-col mx-[10%] py-5">
           <h1 className="mx-auto py-2 text-[#2f66a6]">Leave A Message</h1>
-          <form className="w-full max-w-lg mx-auto">
-            <div className="my-3"><Input placeholder="Name" /></div>
-            <div className="my-3"><Input type="email" placeholder="Email" /></div>
-            <div className="my-3"><Textarea placeholder="Message" /></div>
-            <Button type="submit" className="bg-[#d5181a] w-full text-white">Send</Button>
-          </form>
+         
+          <Form {...form} >
+            <form onSubmit={form.handleSubmit(onSubmit)} className="w-full max-w-lg mx-auto">
+              <FormField
+                control={form.control}
+                name="name"
+                render={({ field }) => (
+                  <FormItem>
+                    
+                    <FormControl>
+                    <Input
+                    className="my-3"
+                    id="name"
+                    type="text"
+                    placeholder="Name"
+                    required
+                    {...field}
+                  />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+                <FormField
+                          control={form.control}
+                          name="email"
+                          render={({ field }) => (
+                            <FormItem>
+                             
+                              <FormControl>
+                              <Input
+                              className="my-3"
+                              id="email"
+                              type="email"
+                              placeholder="Email"
+                              required
+                              {...field}
+                            />
+                              </FormControl>
+                            
+                              <FormMessage />
+                            </FormItem>
+                          )}
+                        />
+                        <FormField
+                          control={form.control}
+                          name="message"
+                          render={({ field }) => (
+                            <FormItem>
+                             
+                              <FormControl>
+                              <Textarea
+                              className="my-3"
+                              id="message"
+                              placeholder="Message"
+                              required
+                              {...field}
+                            />
+                              </FormControl>
+                            
+                              <FormMessage />
+                            </FormItem>
+                          )}
+                        />
+              <Button className="bg-[#d5181a] w-full text-white" type="submit">Send</Button>
+            </form>
+          </Form>
         </div>
       </div>
     </section>
@@ -65,4 +170,4 @@ const contact = () => {
 }
 
 
-export default contact;
+export default Contact;

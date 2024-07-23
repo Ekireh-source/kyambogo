@@ -17,6 +17,7 @@ import {
 
 
 
+
 interface DataType {
     heading: string;
     nickname: string;
@@ -102,7 +103,7 @@ const news = () => {
   return(
     <section>
       <div>
-        <img src="/assets/canteen.jpg" alt="about image" className="w-full h-[400px]" />
+        <Image src="/assets/canteen.jpg" alt="about image" className="w-full h-[500px]" />
       </div>
       <div className="flex justify-between">
         <h1 className="text-4xl mx-auto -mt-20 text-white">School News</h1>
