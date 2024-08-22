@@ -5,6 +5,6 @@ export type User = InferSelectModel<typeof feedback>;
 import useSWR from "swr"
 
 export const useMembers = (options: any) => {
-    const {error, data, isLoading, mutate} = useSWR<{members: User[], meta: {total: number, last_page: number | undefined}}>(`/api/feedback?${new URLSearchParams(options).toString()}`, fetcher)
+    const {error, data, isLoading, mutate} = useSWR<{members: User[], meta: {total: number, last_page: number | undefined}}>('/api/feedback', fetcher)
     return {error, members: data?.members, mutate, isLoading, meta: data?.meta}
 }
